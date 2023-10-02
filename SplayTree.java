@@ -29,8 +29,8 @@ public class SplayTree {
                     	zag(nodeSplay, nodeSplay.parent);
                     }
                 }
-                else { //zagzig
-                    if (Parent == GrandParent.left) {
+                else {
+                    if (Parent == GrandParent.left) { //zagzig
                     	zag(nodeSplay, nodeSplay.parent);
                         zig(nodeSplay, nodeSplay.parent);
                     } 
