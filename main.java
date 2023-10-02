@@ -39,7 +39,7 @@ public class Main {
         		   quit = true;
         		   userSplayTree.preorderPrint(userSplayTree);
         		   break;
-        	   default :
+        	   default : //invalid input
         		   System.out.println("This is an invalid integer input. Please provide a valid integer input"); //in the case that the user inputs something that is an integer but is not valid
         		   break;   
         	   }
